@@ -11,7 +11,7 @@
         <!--FirstVC-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="FirstVC" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="FirstVC" customModule="__Observer" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,7 +42,7 @@
                             </switch>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="nXG-Ab-hIR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5vj-W6-TE5"/>
                             <constraint firstItem="nXG-Ab-hIR" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="8gM-YM-kVf"/>
@@ -95,7 +95,7 @@
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="h7N-3g-al8"/>
-                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Tyy-Lf-i9N" firstAttribute="centerX" secondItem="6BW-2F-8YP" secondAttribute="centerX" id="3Lr-8e-ZGw"/>
                             <constraint firstItem="WpK-I4-yxU" firstAttribute="centerX" secondItem="6BW-2F-8YP" secondAttribute="centerX" id="60V-Xv-uzJ"/>
@@ -108,7 +108,7 @@
                     <navigationItem key="navigationItem" id="rX0-Vu-WtN"/>
                     <connections>
                         <outlet property="listeningSwitch" destination="PoQ-sz-0Xj" id="btG-Ex-DRJ"/>
-                        <outlet property="titleLabel" destination="Tyy-Lf-i9N" id="4Gd-Pq-cH1"/>
+                        <outlet property="titleLbl" destination="Tyy-Lf-i9N" id="Ur0-qa-AiX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UpN-Br-EeI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -19,8 +19,13 @@ class ThirdVC: UIViewController {
     
 
     @IBAction func saveButtonClicked(_ sender: UIButton) {
-        
+        //create notification
+        NotificationCenter.default.post(name: .myNotification, object: nil, userInfo: ["name": nameField.text ?? ""])
     }
     
 
+}
+
+extension NSNotification.Name {
+    static let myNotification = NSNotification.Name("antony")
 }
